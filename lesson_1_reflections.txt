@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    For windows CMD, it was a little bit frustrating trying to locate the problem from many possible changes to the document.
+    But for git bash, it was pretty easy to interprete the outcome of the command. All I had to do was locate the - and + sign
+    to find the wrong spelling.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    From the example you gave early in the game. You decided to change some keys so you could enjoy the game better. 
+    But somewhere along the line the game started malfunctioning and you also realised that the original keys where frustrating
+    more better than the new one. 
+    Think of how long it could have taken you to locate all these changes. I mean you will have to probably go through your code
+    line by line to locate them. But with version control, all you need do is compare you old version with the new one and 
+    in about few seconds, you will be able to see all the changes that has been made to it program.
+    Also, when you have the history to a program, you can move back to a date when the program was best functional to find the 
+    solution to your current problem.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically 
+saved, like Google Docs does?
+
+    PROS Git:
+    In git, you have the chance to decide when and what to commit. WHich allows you to decide what you think is what commiting.
+    I believe its your code and work as such, its important for you to decide what you can work with in future.
+
+    CONS Git:
+    Atimes, your computer might prompt to restart immdiately or even turn off automatically. That can cost you hours of work which has gone
+    uncommitted. Its also within human error to forget atimes to save or commit their work history. 
+
+    PROS Google Docs:
+    You dont have to worry about saving and commiting your work since its done automatically should incase you experience any difficulties.
+
+    CONS Googe Docs:
+    Too many commits are recorded. Most of which might not even be useful to the user.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, 
+treat each file separately?
+     Git allow saving multiple files because they are more programming oriented, and several files create one group. 
+     Google Docs treats each file separately because it is a documented oriented program, so each individual file is important in itself.
+
+How can you use the commands git log and git diff to view the history of files?
+    Git log is useful in viewing the commit history. Whereas we use git diff to see a detailed explanation of the changes between two
+    commits.
+
+How might using version control make you more confident to make changes that could break something?
+    I cant say for mow. Since I just used it now. But I guess I will find out in future. However, I did like to say the easy at which i 
+    was able to scan through this multiple lines of commit and pinpoint the probelm simply by comparing the first know case of the problem
+    with the last commit before the problem, is simply amazing and by far easier than looking for the problem line by line in my code. So, 
+    yeah, I am a little bit more confident in fixing bugs in the future using git.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+    Everything.
